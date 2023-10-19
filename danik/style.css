@@ -123,7 +123,7 @@ font-size: 40px;
 font-style: normal;
 font-weight: 600;
 line-height: 135%;
-width: 810px;
+width: 820px;
 margin-bottom: 38px;
 }
 
@@ -135,7 +135,6 @@ margin-bottom: 38px;
 .about__subtitle {
     color: #AAA;
 font-family: Plus Jakarta Sans;
-font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 140%; /* 22.4px */
@@ -430,4 +429,231 @@ font-size: 15px;
 font-style: normal;
 font-weight: 500;
 line-height: 140%; /* 21px */
+}
+
+@media (max-width: 768px) {
+    .nav__link {
+        display: none;
+    }
+
+    .header__inner {
+        height: 800px;
+    }
+
+
+    .header__burger {
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin-left: 1250px;
+    }
+
+    .header__subtitle {
+        display: none;
+    }
+
+    .header__logos {
+        margin-top: 0;
+    }
+
+    .about__title {
+        margin: 0 auto ;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .about__subtitle {
+        display: none;
+    }
+
+    .about__learn__more {
+        border-radius: 20px;
+        padding: 20px;
+        color: black;
+        background-color: #ffcc00;
+        margin-top: 200px;
+        font-size: 50px;
+    }
+
+    .design__cards {
+        grid-template-columns: repeat(1, 3fr);
+        justify-items: center;
+        row-gap: 150px;
+    }
+
+    .design__cards img {
+        width: 768px;
+    }
+
+    .design {
+        height: 2800px;
+    }
+
+    .portfolio {
+        text-align: center;
+        margin-bottom: 200px;
+    }
+
+    .portfolio__title {
+        margin-bottom: 100px;
+        width: 100%;
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .portfolio__text {
+        font-size: 60px;
+    }
+
+    .portfolio__suptitle {
+        font-size: 50px;
+    }
+
+    .team {
+        height: 3300px;
+    }
+
+    .team__suptitle {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .team__title {
+        margin-bottom: 100px;
+        width: 100%;
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .team__cards {
+        grid-template-columns: repeat(1, 3fr);
+        justify-items: center;
+        row-gap: 150px;
+    }
+
+    .team__card {
+        text-align: center;
+        width: 1000px;
+    }
+
+    .team__card img {
+        width: 700px;
+    }
+
+    .team__card-title {
+        font-size: 70px;
+    }
+
+    .team__card-subtitle {
+        font-size: 50px;
+    }
+
+    .test__cards {
+        display: block;
+    }
+
+    .test {
+        justify-content: center;
+        text-align: center;
+        height: 1500px;
+    }
+
+    .test__suptitle {
+        font-size: 50px;
+    }
+
+    .test__title {
+        margin-top: 30px;
+        font-size: 70px;
+    }
+
+    .test__card-title {
+        margin-top: 100px;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .test__card img {
+        width: 768px;
+    }
+
+    .last__title {
+        font-size: 50px;
+    }
+
+    .last__subtitle {
+        width: 100%;
+        font-size: 70px;
+    }
+
+    .last__items {
+        text-align: start;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+        justify-items: center;
+        column-gap: 50px;
+    }
+
+    .item__suptitle {
+        font-size: 30px;
+    }
+
+    .item__title {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .footer__title {
+        display: none;
+    }
+
+    footer img {
+        width: 400px;
+    }
+
+    .right__title {
+        font-size: 30px;
+    }
+
+    .right__text {
+        font-size: 25px;
+    }
+
+    .bottom__text {
+        display: none;
+    }
+}
+
+@media (max-width: 321px) {
+    .header__pic {
+        display: none;
+    }
+
+    .header__title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__text {
+        margin-right: 0;
+    }
+
+    .last__title {
+        text-align: center;
+    }
+
+    .last__subtitle {
+        text-align: center;
+    }
+
+    .footer__inner {
+        padding-top: 100px;
+    }
+    
+    .test__card-title {
+        font-size: 40px;
+    }
 }
