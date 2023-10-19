@@ -68,7 +68,7 @@ font-size: 100px;
 font-style: normal;
 font-weight: 600;
 line-height: 135%; /* 135px */
-margin-top: 119px;
+margin-top: 100px;
 }
 
 .header__text {
@@ -105,7 +105,7 @@ flex-shrink: 0;
 
 .header__logos {
     margin-left: 235px;
-    margin-top: 125px;
+    margin-top: 117px;
 }
 
 .about {
@@ -132,6 +132,10 @@ margin-bottom: 38px;
     justify-content: space-between;
 }
 
+.about__flex img {
+    margin-right: 100px;
+}
+
 .about__subtitle {
     color: #AAA;
 font-family: Plus Jakarta Sans;
@@ -140,7 +144,7 @@ font-weight: 500;
 line-height: 140%; /* 22.4px */
 width: 420px;
 height: 152px;
-margin-bottom: 25px;
+margin-bottom: 20px;
 }
 
 .about__learn__more {
@@ -152,6 +156,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 140%; /* 22.4px */
 letter-spacing: 2.88px;
+margin-top: -20px;
 }
 
 .design {
@@ -167,6 +172,7 @@ letter-spacing: 2.88px;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     column-gap: 49px;
+    padding-left: 20px;
 }
 
 .portfolio {
@@ -266,9 +272,9 @@ line-height: 144%; /* 18.72px */
 
 .test {
     margin: 0 auto;
-    margin-top: 143px;
+    margin-top: 100px;
     width: 1200px;
-    height: 422px;
+    height: 422px;  
 
 }
 
@@ -345,6 +351,7 @@ margin-bottom: 57px;
     justify-items: center;
     column-gap: 150px;
     row-gap: 76px;
+    margin-left: -20px;
 }
 
 .last__item {
@@ -384,7 +391,7 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding-top: 115px;
+    padding-top: 105px;
     width: 1105px;
     margin-bottom: 103px;
 }
@@ -473,13 +480,14 @@ line-height: 140%; /* 21px */
         color: black;
         background-color: #ffcc00;
         margin-top: 200px;
-        font-size: 50px;
+        font-size: 47px;
     }
 
     .design__cards {
         grid-template-columns: repeat(1, 3fr);
         justify-items: center;
         row-gap: 150px;
+
     }
 
     .design__cards img {
@@ -579,6 +587,10 @@ line-height: 140%; /* 21px */
         width: 768px;
     }
 
+    .last {
+        margin-top: 135px;
+    }
+
     .last__title {
         font-size: 50px;
     }
@@ -594,7 +606,7 @@ line-height: 140%; /* 21px */
         display: grid;
         grid-template-columns: repeat(1, 4fr);
         justify-items: center;
-        column-gap: 50px;
+        row-gap: 90px;
     }
 
     .item__suptitle {
@@ -620,6 +632,11 @@ line-height: 140%; /* 21px */
 
     .right__text {
         font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .footer__inner {
+        padding-top: 115px;
     }
 
     .bottom__text {
@@ -641,13 +658,6 @@ line-height: 140%; /* 21px */
         margin-right: 0;
     }
 
-    .last__title {
-        text-align: center;
-    }
-
-    .last__subtitle {
-        text-align: center;
-    }
 
     .footer__inner {
         padding-top: 100px;
